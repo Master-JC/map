@@ -52,4 +52,10 @@ dependencies {
 
     implementation ("com.google.android.material:material:1.11.0")
 
+    implementation ("androidx.appcompat:appcompat:1.6.1")
+
+    implementation ("com.davemorrissey.labs:subsampling-scale-image-view:3.10.0")
+
+
+
 }
