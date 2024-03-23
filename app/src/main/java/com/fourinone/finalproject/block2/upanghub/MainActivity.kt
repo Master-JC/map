@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+//sda
         // Initialize buttons
         binding.zoomableImageView.setImage(ImageSource.resource(R.drawable.itona))
 
