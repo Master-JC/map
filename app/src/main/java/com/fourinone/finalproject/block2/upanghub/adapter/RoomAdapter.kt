@@ -44,4 +44,9 @@ class RoomAdapter(var roomList: MutableList<Room>):RecyclerView.Adapter<RoomAdap
         return roomList.size
     }
 
+    fun updateData(newDataset: List<Room>) {
+        roomList = newDataset as MutableList<Room>
+        notifyDataSetChanged() // Notify the adapter that the dataset has changed
+    }
+
 }

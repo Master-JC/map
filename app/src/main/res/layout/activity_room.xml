@@ -11,7 +11,7 @@
   <androidx.recyclerview.widget.RecyclerView
       android:id="@+id/rvRoom"
       android:layout_width="409dp"
-      android:layout_height="658dp"
+      android:layout_height="609dp"
       android:layout_marginStart="1dp"
       android:layout_marginEnd="1dp"
       app:layout_constraintBottom_toBottomOf="parent"
@@ -28,4 +28,25 @@
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="12dp"
+      android:text="View Park"
+      app:layout_constraintBottom_toTopOf="@+id/rvRoom"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.196"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <Button
+      android:id="@+id/button2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="11dp"
+      android:text="Secutrity Park "
+      app:layout_constraintBottom_toTopOf="@+id/rvRoom"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toEndOf="@+id/button" />
 </androidx.constraintlayout.widget.ConstraintLayout>

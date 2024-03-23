@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecurityParkActivity">
+
+    <Button
+        android:id="@+id/btnP1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="P1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+
+        />
+    <Button
+        android:id="@+id/btnP2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="P2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnP1"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnP3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="P3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnP2"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnP4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="P4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnP3"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnP5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="P5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnP4"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        />
+
+
+    <Button
+        android:id="@+id/btnP6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="P6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        />
+
+    <Button
+        android:id="@+id/btnP7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="P7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnP6"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnP8"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="P8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnP7"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnP9"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="P8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnP8"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+
+        />
+    <Button
+        android:id="@+id/btnP10"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="P10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnP9"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
