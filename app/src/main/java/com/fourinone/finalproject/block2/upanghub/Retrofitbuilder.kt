@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 object Retrofitbuilder {
 
     private const val BASE_URL = "http://10.40.70.87/api/"
-//ds
+//ds hi po
     // Function to build the service instance using the stored authentication token
     fun <T> buildService(serviceType: Class<T>): T {
         val httpClient = OkHttpClient.Builder()
